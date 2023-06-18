@@ -32,9 +32,20 @@ In finance, this property is often used to develop mean-reverting algorithmic st
 - The two stocks should have similar risk exposure or in similar industries so that their prices move together.<br>
 We will long the undervalued stock and short the overvalued stock. When the two stock prices revert to the mean, then we will sell both. This is an example of Pairs Trading.
 
+Functions created used in order of appearance:
+| Function| Description  |
+|--------------|------|
+|   correlation_matrix | plots a correlation matrix for log returns datasets|
+|   adfpair_test | Augmented Dickey-Fuller pair test which checks for cointegration between a pair of stocks |
+|   EG_test | Engel Granger Test which checks for cointegration between a pair of stocks |
+|   autocorr| tests for hypothesis of autocorrelation using durbin watson statistic |
+|   addcolumn | adds column |
+|   beta | Ordinary Linear Regression where we find the rsquared coefficient of the regression |
+|   Smooth | Creates the price spread and smooths the spread using moving averages |
+|   adfsingle_test | checks only one series for stationarity |
+|   strategy | runs the trading strategy for longing and shorting the stocks based on the smoothed spread, returns the PnL graph and stats |
 
 <br>
-
 
 ### Appendix
 
