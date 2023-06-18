@@ -1,4 +1,4 @@
-# Basic-Cointegration-Test
+# Basic-Correlation-and-Cointegration-Test
 
 **Background Information:**
 - *Mean reversion states that stock prices will eventually return to their historical means, because the prices are fluctuating around the mean*
